@@ -17,9 +17,10 @@ public class MovieApp{
       user[1]= new User("Peter", 1, "111");
       user[2]= new User("Sarah", 2, "222");
       Scanner scan2 = new Scanner(System.in);
-      int input2 = scan2.hasNextInt();
-    
       
+      System.out.println("Please enter your ID:");
+      int input2 = scan2.nextInt();
+    
       for (int i = 0; i <= user.length; i++) {
          if (user[i].getID() == input2) {
             System.out.println("Please enter your password:");
@@ -40,7 +41,7 @@ public class MovieApp{
       case 1: 
          System.out.println("Please enter you ID number");
          
-         while(input.nextInt()){
+         //while(input.nextInt()){
          
          }
          
@@ -50,4 +51,3 @@ public class MovieApp{
    }
    }
    
-}
